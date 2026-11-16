@@ -4,21 +4,21 @@ cask "collector" do
 
   on_macos do
     on_arm do
-      sha256 "456898955dc69dd52d673855b67795b85dab6551fe995242a1180f8fa9964252"
+      sha256 "d2af9e09beac15aa54e6d53f177ec3e33ed1e81f69ec26e45323b8c7a897e2f3"
       url "https://github.com/chrom-ar/collector-cli/releases/download/v#{version}/collector_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "48a0d970502e8c14643fc00399cbe5eba9e3fecb6eaf4b8ca76a7e774174f8a2"
+      sha256 "a86de1fffd88e7cd867b90e4da2a6fc7ed3f442439e038d999b69ab13dc24ef0"
       url "https://github.com/chrom-ar/collector-cli/releases/download/v#{version}/collector_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "0cba105c04492f78cb90db5ad31bc6559113c250c593506c25cafbec78897813"
+      sha256 "db6aa00d212d747bf330ad73ad86defb13d55fbce1712f542844a1d782db60b9"
       url "https://github.com/chrom-ar/collector-cli/releases/download/v#{version}/collector_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bbda19da5277c6e701f79684844f50cbc319f9f5f0dde2e47840c065c40d4e89"
+      sha256 "b687101f3a7dbb07e1eb7d8430a73e5c5ab71402694815300202fddbf26119e6"
       url "https://github.com/chrom-ar/collector-cli/releases/download/v#{version}/collector_linux_amd64.tar.gz"
     end
   end
