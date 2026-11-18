@@ -4,21 +4,21 @@ cask "hkr" do
 
   on_macos do
     on_arm do
-      sha256 "1b7feed146279466b5932252e5ff450ebfa55c7f004f18bc8b16fb26f09e557f"
+      sha256 "5b04cb9382594103d117f6e28db9b997867b233efcdba628e65664a6fb590149"
       url "https://github.com/chrom-ar/hkr-cli/releases/download/v#{version}/hkr_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3d0c56133f28f127319c6cea89f9c88cf713f03707bb4a4d183e0943a3978a63"
+      sha256 "e40a1a0c22131f6c496b92159b5cb4ab2bffd824dfc4a5de9dce14ed0adbe878"
       url "https://github.com/chrom-ar/hkr-cli/releases/download/v#{version}/hkr_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "74af18d16527c6d24e188ec8faddea37147d6cb02461b3927de2147dafc3fcea"
+      sha256 "872f76ee5cf7fbb43ea5c4bee1b6f759c1d38aba37b4dad1be7b02ab7b528ea7"
       url "https://github.com/chrom-ar/hkr-cli/releases/download/v#{version}/hkr_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a17da8347fa07ee170fc9571eaab2cc8f1dc1bdb225df35807afeebf003f23cb"
+      sha256 "38b8f229c7ecd800acb1182af9b492fe7423f73fd9f01d395dc8638382b127fe"
       url "https://github.com/chrom-ar/hkr-cli/releases/download/v#{version}/hkr_linux_amd64.tar.gz"
     end
   end
